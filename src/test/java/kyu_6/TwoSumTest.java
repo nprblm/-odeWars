@@ -1,4 +1,5 @@
 package kyu_6;
+//https://www.codewars.com/kata/52c31f8e6605bcc646000082/java
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.*;

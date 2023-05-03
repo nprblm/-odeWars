@@ -1,4 +1,5 @@
 package kyu_6;
+//https://www.codewars.com/kata/56a5d994ac971f1ac500003e/train/java
 
 import static org.junit.Assert.*;
 import org.junit.Test;
