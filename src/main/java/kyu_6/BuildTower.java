@@ -10,6 +10,4 @@ public class BuildTower {
         }
         return solution;
     }
-
-
 }
