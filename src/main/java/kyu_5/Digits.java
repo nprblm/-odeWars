@@ -91,7 +91,7 @@ public class Digits {
                         index = 0;
                         if (numbersIsAvailable.size() == 2) {
                             finalCode[iterator] = numbersIsAvailable.get(0);
-                            indexIsAvailable.remove(new Integer(iterator));
+                            indexIsAvailable.remove((Integer) iterator);
                             numbersIsAvailable.remove(0);
                             iterator = indexIsAvailable.get(index);
                             finalCode[iterator] = numbersIsAvailable.get(0);
@@ -100,7 +100,7 @@ public class Digits {
                         }
                         finalCode[iterator] = numbersIsAvailable.get(0);
                         numbersIsAvailable.remove(0);
-                        indexIsAvailable.remove(new Integer(iterator));
+                        indexIsAvailable.remove((Integer) iterator);
                         iterator = indexIsAvailable.get(0);
 
                     }
